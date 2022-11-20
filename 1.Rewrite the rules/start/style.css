@@ -1,0 +1,18 @@
+:root{
+    --standard-size: 100px;
+    --default-bg-color: #011212 ;
+    --default-ball-color: #ff8800;
+}
+
+
+
+body {
+    background-color: var(--default-bg-color);
+}
+
+.ball {
+    width: var(--standard-size);
+    height: var(--standard-size);
+    background-color: var(--default-ball-color);
+    border-radius: 50px;
+}
