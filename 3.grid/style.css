@@ -1,0 +1,179 @@
+html{
+    font-size: 30px;
+}
+
+.calc{
+    border: 12px solid rgb(255, 255, 255);
+    margin-bottom: none;
+    position: absolute;
+}
+
+.calc{
+    width: 300px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas:
+    "screen screen screen screen"
+    "plus minus mul div"
+    "seven eight nine equals"
+    "four five six equals"
+    "one two three equals"
+    "zero dot ac equals";
+}
+
+div>p{
+    text-align: center;
+}
+
+#screen{
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid rgb(46, 45, 45);
+    background-color: rgb(53, 52, 52);
+    color: white;
+    text-align: end;
+    height: auto;
+    width: auto;
+    grid-area: screen;
+}
+#zero{
+    border-bottom-left-radius: 20px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: zero;
+}
+#one{
+    border: 2px solid black;
+    background-color: rgb(245, 245, 245);
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: one;
+}
+#two{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: two;
+}
+#three{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: three;
+}
+#four{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: four;
+}
+#five{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: five;
+}
+#six{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: six;
+}
+#seven{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: seven;
+}
+#eight{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: eight;
+}
+#nine{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: nine;
+}
+#dot{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: dot;
+}
+#ac{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: ac;
+}
+#equals{
+    border-bottom-right-radius: 20px;
+    border: 2px solid black;
+    background-color: rgb(235, 115, 115);
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: equals;
+}
+#plus{
+    border: 2px solid black;
+    background-color: rgb(202, 201, 222);
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: plus;
+}
+#minus{
+    border: 2px solid black;
+    background-color: rgb(202, 201, 222);
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: minus;
+}
+#mul{
+    border: 2px solid black;
+    background-color: rgb(202, 201, 222);
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: mul;   
+}
+#div{
+    border: 2px solid black;
+    background-color: rgb(202, 201, 222);
+    height: auto;
+    width: auto;
+    text-align: center;
+    grid-area: div;
+}
