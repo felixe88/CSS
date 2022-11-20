@@ -1,0 +1,61 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3 1fr;
+  grid-template-rows: 3 1fr;
+  grid-template-areas: 
+  "green green green"
+  "yellow red blue"
+  "orange orange blue";
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  background-color: #8ffda7;
+  grid-area: green;
+}
+
+#orange {
+  background-color: #ffc788;
+  grid-area: orange;
+}
+
+#yellow {
+  grid-template-columns: 2 1fr;
+  grid-template-rows: 2 1fr;
+  display: grid;
+  background-color: #ffff92;
+  grid-area: yellow;
+}
+
+#red {
+  display: grid;
+  grid-template-columns: 2 1fr;
+  grid-template-rows: 2 1fr;
+  background-color: #ff919c;
+  grid-area: red;
+}
+
+#blue {
+  background-color: #98d2ff;
+  grid-area: blue;
+}
+
+ul {
+  padding:0;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
